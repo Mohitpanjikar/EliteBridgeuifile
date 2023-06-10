@@ -19,5 +19,5 @@ The development of Elite Bridge Software is inspired by the need for efficient e
 This project is made possible by the contributions of open-source libraries, frameworks, and development
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/Mohitpanjikar/EliteBridgeuifile/blob/main/elite_view.png)
 
