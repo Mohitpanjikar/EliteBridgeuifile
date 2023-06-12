@@ -1,10 +1,9 @@
 #include "mainwindow.h"
-
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
 #include <QPixmap>
-
+#include "admin.h"
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -20,7 +19,8 @@ int main(int argc, char *argv[])
     }
 
 
-    MainWindow w;
+    Admin w;
+
     w.show();
     return a.exec();
 }
