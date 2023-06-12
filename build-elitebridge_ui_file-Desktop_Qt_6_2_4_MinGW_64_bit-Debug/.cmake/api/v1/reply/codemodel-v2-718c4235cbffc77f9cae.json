@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7cc8fcb44273a35d8e9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "elitebridge_ui_file",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "elitebridge_ui_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-elitebridge_ui_file-Debug-feb91e75d0929638bc25.json",
+					"name" : "elitebridge_ui_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "elitebridge_ui_file_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-elitebridge_ui_file_autogen-Debug-952734b35bbdefd2671c.json",
+					"name" : "elitebridge_ui_file_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "elitebridge_ui_file_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-elitebridge_ui_file_autogen_timestamp_deps-Debug-a71155a3c9a54732acaf.json",
+					"name" : "elitebridge_ui_file_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+		"source" : "D:/ElieteBridge-git/elitebridge_ui_file"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

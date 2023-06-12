@@ -19,6 +19,9 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        admin.cpp
+        admin.h
+        admin.ui
         ${TS_FILES}
 )
 

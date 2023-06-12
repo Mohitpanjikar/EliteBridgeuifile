@@ -1,0 +1,9 @@
+D:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/elitebridge_ui_file.dir
+D:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/elitebridge_ui_file_autogen_timestamp_deps.dir
+D:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/elitebridge_ui_file_autogen.dir
