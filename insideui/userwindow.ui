@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>userWindow</class>
+ <widget class="QMainWindow" name="userWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>838</width>
+    <height>393</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>userWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="1">
+     <widget class="Line" name="line_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="Line" name="line_3">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="2" column="1">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="9">
+       <widget class="Line" name="line_11">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../build-insideui-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/img/user.png</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="13">
+       <widget class="Line" name="line_6">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../build-insideui-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/img/Note.png</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="16">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../build-insideui-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/img/Pop.png</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="Line" name="line_8">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="7">
+       <widget class="Line" name="line_10">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="8">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../build-insideui-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/img/undo.png</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="Line" name="line_7">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="11">
+       <widget class="Line" name="line_5">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../build-insideui-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/img/save.png</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="Line" name="line_9">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../build-insideui-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/img/pan.png</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="10">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../build-insideui-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/img/db.png</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="12">
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+      <item row="0" column="14">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../build-insideui-Desktop_Qt_6_5_0_MinGW_64_bit-Debug/img/search.png</pixmap>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="15">
+       <widget class="Line" name="line_12">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>838</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuRecord">
+    <property name="title">
+     <string>Record</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuAudit">
+    <property name="title">
+     <string>Audit</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuLocation">
+    <property name="title">
+     <string>Location </string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuUser">
+    <property name="title">
+     <string>User</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuView"/>
+   <addaction name="menuRecord"/>
+   <addaction name="menuAudit"/>
+   <addaction name="menuLocation"/>
+   <addaction name="menuUser"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
