@@ -22,6 +22,9 @@ set(PROJECT_SOURCES
         admin.cpp
         admin.h
         admin.ui
+        userwindow.h
+        userwindow.cpp
+        userwindow.ui
         ${TS_FILES}
 )
 

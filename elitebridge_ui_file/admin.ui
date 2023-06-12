@@ -17,13 +17,13 @@
    <string notr="true">background-color:rgb(255, 255, 255)</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QFrame" name="dynamix">
+   <widget class="QFrame" name="dynamicFrame">
     <property name="geometry">
      <rect>
       <x>350</x>
-      <y>120</y>
+      <y>130</y>
       <width>521</width>
-      <height>491</height>
+      <height>501</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -46,7 +46,7 @@
      </property>
     </widget>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -100,13 +100,13 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>125</y>
       <width>346</width>
-      <height>491</height>
+      <height>521</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">

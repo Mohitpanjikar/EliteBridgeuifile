@@ -13,11 +13,13 @@ class Admin : public QMainWindow
 {
     Q_OBJECT
 
-
+signals:
+    void clicked();
 
 public:
     explicit Admin(QWidget *parent = nullptr);
-     void labelClicked();
+    void addReporting();
+    void mousePressEvent(QMouseEvent* event);
     ~Admin();
 
 private:

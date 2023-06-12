@@ -6,12 +6,16 @@ Admin::Admin(QWidget *parent) :
     ui(new Ui::Admin)
 {
     ui->setupUi(this);
+    QLabel* reporting=ui->reporting;
+
 
 }
-Admin::labelClicked(){
-                      connect(ui->reporting,clic)
+void Admin::addReporting(){
+    this->close();
 }
-
+void Admin::mousePressEvent(QMouseEvent* event) {
+    emit clicked();
+}
 
 
 Admin::~Admin()
