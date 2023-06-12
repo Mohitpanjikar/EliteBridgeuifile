@@ -44,6 +44,7 @@ set(OLD_GLOB
   "D:/ElieteBridge-git/elitebridge_ui_file/admin.cpp"
   "D:/ElieteBridge-git/elitebridge_ui_file/main.cpp"
   "D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.cpp"
+  "D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.cpp"
   "D:/ElieteBridge-git/elitebridge_ui_file/userwindow.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -65,6 +66,7 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/ElieteBridge-git/elitebrid
 set(OLD_GLOB
   "D:/ElieteBridge-git/elitebridge_ui_file/admin.h"
   "D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.h"
+  "D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.h"
   "D:/ElieteBridge-git/elitebridge_ui_file/userwindow.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -167,6 +169,7 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/ElieteBridge-git/elitebrid
 set(OLD_GLOB
   "D:/ElieteBridge-git/elitebridge_ui_file/admin.ui"
   "D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.ui"
+  "D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.ui"
   "D:/ElieteBridge-git/elitebridge_ui_file/userwindow.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

@@ -460,9 +460,12 @@ elitebridge_ui_file_autogen/timestamp: \
   D:/ElieteBridge-git/elitebridge_ui_file/main.cpp \
   D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.cpp \
   D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.h \
+  D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.cpp \
+  D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.h \
   D:/ElieteBridge-git/elitebridge_ui_file/userwindow.cpp \
   D:/ElieteBridge-git/elitebridge_ui_file/userwindow.h \
   D:/ElieteBridge-git/elitebridge_ui_file/admin.ui \
   D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.ui \
+  D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.ui \
   D:/ElieteBridge-git/elitebridge_ui_file/userwindow.ui \
   C:/Qt/Tools/CMake_64/bin/cmake.exe

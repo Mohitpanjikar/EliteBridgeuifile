@@ -25,6 +25,9 @@ set(PROJECT_SOURCES
         userwindow.h
         userwindow.cpp
         userwindow.ui
+        registrationtab.h
+        registrationtab.cpp
+        registrationtab.ui
         ${TS_FILES}
 )
 

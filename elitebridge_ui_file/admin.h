@@ -22,6 +22,9 @@ public:
     void mousePressEvent(QMouseEvent* event);
     ~Admin();
 
+private slots:
+    void on_btn_reporting_clicked();
+
 private:
     Ui::Admin *ui;
 };
