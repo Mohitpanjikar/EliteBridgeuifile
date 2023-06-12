@@ -105,9 +105,11 @@ elitebridge_ui_file_autogen/timestamp: \
 	C:/Qt/6.2.4/mingw_64/include/QtGui/qtransform.h \
 	C:/Qt/6.2.4/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.2.4/mingw_64/include/QtGui/qwindowdefs_win.h \
+	C:/Qt/6.2.4/mingw_64/include/QtWidgets/QDialog \
 	C:/Qt/6.2.4/mingw_64/include/QtWidgets/QLabel \
 	C:/Qt/6.2.4/mingw_64/include/QtWidgets/QMainWindow \
 	C:/Qt/6.2.4/mingw_64/include/QtWidgets/QWidget \
+	C:/Qt/6.2.4/mingw_64/include/QtWidgets/qdialog.h \
 	C:/Qt/6.2.4/mingw_64/include/QtWidgets/qframe.h \
 	C:/Qt/6.2.4/mingw_64/include/QtWidgets/qlabel.h \
 	C:/Qt/6.2.4/mingw_64/include/QtWidgets/qmainwindow.h \
@@ -458,6 +460,9 @@ elitebridge_ui_file_autogen/timestamp: \
 	D:/ElieteBridge-git/elitebridge_ui_file/main.cpp \
 	D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.cpp \
 	D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.h \
+	D:/ElieteBridge-git/elitebridge_ui_file/userwindow.cpp \
+	D:/ElieteBridge-git/elitebridge_ui_file/userwindow.h \
 	D:/ElieteBridge-git/elitebridge_ui_file/admin.ui \
 	D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.ui \
+	D:/ElieteBridge-git/elitebridge_ui_file/userwindow.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

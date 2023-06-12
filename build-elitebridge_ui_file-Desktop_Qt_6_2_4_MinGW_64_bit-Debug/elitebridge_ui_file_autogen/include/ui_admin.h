@@ -27,14 +27,14 @@ class Ui_Admin
 {
 public:
     QWidget *centralwidget;
-    QFrame *dynamix;
+    QFrame *dynamicFrame;
     QLabel *label_5;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QVBoxLayout *verticalLayout;
     QLabel *label;
     QLabel *label_2;
     QComboBox *comboBox;
-    QWidget *widget1;
+    QWidget *layoutWidget1;
     QGridLayout *gridLayout;
     QLabel *label_3;
     QLabel *label_6;
@@ -55,31 +55,31 @@ public:
         Admin->setStyleSheet(QString::fromUtf8("background-color:rgb(255, 255, 255)"));
         centralwidget = new QWidget(Admin);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        dynamix = new QFrame(centralwidget);
-        dynamix->setObjectName(QString::fromUtf8("dynamix"));
-        dynamix->setGeometry(QRect(350, 120, 521, 491));
-        dynamix->setFrameShape(QFrame::StyledPanel);
-        dynamix->setFrameShadow(QFrame::Raised);
-        label_5 = new QLabel(dynamix);
+        dynamicFrame = new QFrame(centralwidget);
+        dynamicFrame->setObjectName(QString::fromUtf8("dynamicFrame"));
+        dynamicFrame->setGeometry(QRect(350, 130, 521, 501));
+        dynamicFrame->setFrameShape(QFrame::StyledPanel);
+        dynamicFrame->setFrameShadow(QFrame::Raised);
+        label_5 = new QLabel(dynamicFrame);
         label_5->setObjectName(QString::fromUtf8("label_5"));
         label_5->setGeometry(QRect(50, 60, 63, 20));
-        widget = new QWidget(centralwidget);
-        widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(0, 0, 871, 114));
+        layoutWidget = new QWidget(centralwidget);
+        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
+        layoutWidget->setGeometry(QRect(0, 0, 871, 114));
         QFont font;
         font.setPointSize(13);
         font.setBold(true);
-        widget->setFont(font);
-        verticalLayout = new QVBoxLayout(widget);
+        layoutWidget->setFont(font);
+        verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        label = new QLabel(widget);
+        label = new QLabel(layoutWidget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setFont(font);
 
         verticalLayout->addWidget(label);
 
-        label_2 = new QLabel(widget);
+        label_2 = new QLabel(layoutWidget);
         label_2->setObjectName(QString::fromUtf8("label_2"));
         QFont font1;
         font1.setPointSize(10);
@@ -88,31 +88,31 @@ public:
 
         verticalLayout->addWidget(label_2);
 
-        comboBox = new QComboBox(widget);
+        comboBox = new QComboBox(layoutWidget);
         comboBox->setObjectName(QString::fromUtf8("comboBox"));
         comboBox->setFont(font);
 
         verticalLayout->addWidget(comboBox);
 
-        widget1 = new QWidget(centralwidget);
-        widget1->setObjectName(QString::fromUtf8("widget1"));
-        widget1->setGeometry(QRect(0, 125, 346, 491));
-        gridLayout = new QGridLayout(widget1);
+        layoutWidget1 = new QWidget(centralwidget);
+        layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
+        layoutWidget1->setGeometry(QRect(0, 125, 346, 521));
+        gridLayout = new QGridLayout(layoutWidget1);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
-        label_3 = new QLabel(widget1);
+        label_3 = new QLabel(layoutWidget1);
         label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setPixmap(QPixmap(QString::fromUtf8("C:/Users/Dell/OneDrive/Pictures/Screenshots/Screenshot 2023-06-10 121132.png")));
 
         gridLayout->addWidget(label_3, 0, 0, 2, 2);
 
-        label_6 = new QLabel(widget1);
+        label_6 = new QLabel(layoutWidget1);
         label_6->setObjectName(QString::fromUtf8("label_6"));
         label_6->setPixmap(QPixmap(QString::fromUtf8("C:/Users/Dell/OneDrive/Pictures/Screenshots/ide.png")));
 
         gridLayout->addWidget(label_6, 2, 0, 1, 2);
 
-        EDI = new QLabel(widget1);
+        EDI = new QLabel(layoutWidget1);
         EDI->setObjectName(QString::fromUtf8("EDI"));
         QFont font2;
         font2.setPointSize(12);
@@ -122,33 +122,33 @@ public:
 
         gridLayout->addWidget(EDI, 2, 2, 1, 1);
 
-        label_9 = new QLabel(widget1);
+        label_9 = new QLabel(layoutWidget1);
         label_9->setObjectName(QString::fromUtf8("label_9"));
         label_9->setPixmap(QPixmap(QString::fromUtf8("C:/Users/Dell/OneDrive/Pictures/Screenshots/systemconfig.png")));
 
         gridLayout->addWidget(label_9, 3, 0, 1, 2);
 
-        systemconfig = new QLabel(widget1);
+        systemconfig = new QLabel(layoutWidget1);
         systemconfig->setObjectName(QString::fromUtf8("systemconfig"));
         systemconfig->setFont(font2);
         systemconfig->setMouseTracking(true);
 
         gridLayout->addWidget(systemconfig, 3, 2, 1, 1);
 
-        label_10 = new QLabel(widget1);
+        label_10 = new QLabel(layoutWidget1);
         label_10->setObjectName(QString::fromUtf8("label_10"));
         label_10->setPixmap(QPixmap(QString::fromUtf8("C:/Users/Dell/OneDrive/Pictures/Screenshots/process.png")));
 
         gridLayout->addWidget(label_10, 4, 0, 1, 2);
 
-        process = new QLabel(widget1);
+        process = new QLabel(layoutWidget1);
         process->setObjectName(QString::fromUtf8("process"));
         process->setFont(font2);
         process->setMouseTracking(true);
 
         gridLayout->addWidget(process, 4, 2, 1, 1);
 
-        reporting = new QLabel(widget1);
+        reporting = new QLabel(layoutWidget1);
         reporting->setObjectName(QString::fromUtf8("reporting"));
         reporting->setFont(font2);
         reporting->setMouseTracking(true);
