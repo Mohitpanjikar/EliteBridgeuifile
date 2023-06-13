@@ -42,9 +42,13 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/ElieteBridge-git/elitebridge_ui_file/*.cpp")
 set(OLD_GLOB
   "D:/ElieteBridge-git/elitebridge_ui_file/admin.cpp"
+  "D:/ElieteBridge-git/elitebridge_ui_file/edi.cpp"
   "D:/ElieteBridge-git/elitebridge_ui_file/main.cpp"
   "D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.cpp"
+  "D:/ElieteBridge-git/elitebridge_ui_file/process.cpp"
   "D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.cpp"
+  "D:/ElieteBridge-git/elitebridge_ui_file/reporting.cpp"
+  "D:/ElieteBridge-git/elitebridge_ui_file/sysconfig.cpp"
   "D:/ElieteBridge-git/elitebridge_ui_file/userwindow.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -65,8 +69,12 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/ElieteBridge-git/elitebridge_ui_file/*.h")
 set(OLD_GLOB
   "D:/ElieteBridge-git/elitebridge_ui_file/admin.h"
+  "D:/ElieteBridge-git/elitebridge_ui_file/edi.h"
   "D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.h"
+  "D:/ElieteBridge-git/elitebridge_ui_file/process.h"
   "D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.h"
+  "D:/ElieteBridge-git/elitebridge_ui_file/reporting.h"
+  "D:/ElieteBridge-git/elitebridge_ui_file/sysconfig.h"
   "D:/ElieteBridge-git/elitebridge_ui_file/userwindow.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -168,8 +176,12 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/ElieteBridge-git/elitebridge_ui_file/*.ui")
 set(OLD_GLOB
   "D:/ElieteBridge-git/elitebridge_ui_file/admin.ui"
+  "D:/ElieteBridge-git/elitebridge_ui_file/edi.ui"
   "D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.ui"
+  "D:/ElieteBridge-git/elitebridge_ui_file/process.ui"
   "D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.ui"
+  "D:/ElieteBridge-git/elitebridge_ui_file/reporting.ui"
+  "D:/ElieteBridge-git/elitebridge_ui_file/sysconfig.ui"
   "D:/ElieteBridge-git/elitebridge_ui_file/userwindow.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

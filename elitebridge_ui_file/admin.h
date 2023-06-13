@@ -25,6 +25,12 @@ public:
 private slots:
     void on_btn_reporting_clicked();
 
+    void on_btn_EDI_clicked();
+
+    void on_btn_sysConfig_clicked();
+
+    void on_btn_process_clicked();
+
 private:
     Ui::Admin *ui;
 };

@@ -457,15 +457,24 @@ elitebridge_ui_file_autogen/timestamp: \
 	D:/ElieteBridge-git/elitebridge_ui_file/CMakeLists.txt \
 	D:/ElieteBridge-git/elitebridge_ui_file/admin.cpp \
 	D:/ElieteBridge-git/elitebridge_ui_file/admin.h \
+	D:/ElieteBridge-git/elitebridge_ui_file/edi.cpp \
+	D:/ElieteBridge-git/elitebridge_ui_file/edi.h \
 	D:/ElieteBridge-git/elitebridge_ui_file/main.cpp \
 	D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.cpp \
 	D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.h \
-	D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.cpp \
-	D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.h \
+	D:/ElieteBridge-git/elitebridge_ui_file/process.cpp \
+	D:/ElieteBridge-git/elitebridge_ui_file/process.h \
+	D:/ElieteBridge-git/elitebridge_ui_file/reporting.cpp \
+	D:/ElieteBridge-git/elitebridge_ui_file/reporting.h \
+	D:/ElieteBridge-git/elitebridge_ui_file/sysconfig.cpp \
+	D:/ElieteBridge-git/elitebridge_ui_file/sysconfig.h \
 	D:/ElieteBridge-git/elitebridge_ui_file/userwindow.cpp \
 	D:/ElieteBridge-git/elitebridge_ui_file/userwindow.h \
 	D:/ElieteBridge-git/elitebridge_ui_file/admin.ui \
+	D:/ElieteBridge-git/elitebridge_ui_file/edi.ui \
 	D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.ui \
-	D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.ui \
+	D:/ElieteBridge-git/elitebridge_ui_file/process.ui \
+	D:/ElieteBridge-git/elitebridge_ui_file/reporting.ui \
+	D:/ElieteBridge-git/elitebridge_ui_file/sysconfig.ui \
 	D:/ElieteBridge-git/elitebridge_ui_file/userwindow.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

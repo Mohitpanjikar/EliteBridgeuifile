@@ -13,6 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QGridLayout>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
@@ -28,21 +29,21 @@ class Ui_Admin
 {
 public:
     QWidget *centralwidget;
-    QWidget *layoutWidget;
+    QVBoxLayout *verticalLayout_2;
     QVBoxLayout *verticalLayout;
     QLabel *label;
     QLabel *label_2;
     QComboBox *comboBox;
-    QWidget *layoutWidget1;
-    QGridLayout *gridLayout;
-    QLabel *label_6;
-    QLabel *label_3;
-    QLabel *label_10;
-    QLabel *label_9;
-    QPushButton *btn_reporting;
+    QHBoxLayout *horizontalLayout;
+    QGridLayout *_2;
     QPushButton *btn_EDI;
+    QLabel *label_6;
     QPushButton *btn_sysConfig;
     QPushButton *btn_process;
+    QLabel *label_10;
+    QPushButton *btn_reporting;
+    QLabel *label_3;
+    QLabel *label_9;
     QTabWidget *tabWidget;
     QMenuBar *menubar;
     QStatusBar *statusbar;
@@ -55,23 +56,23 @@ public:
         Admin->setStyleSheet(QString::fromUtf8("background-color:rgb(255, 255, 255)"));
         centralwidget = new QWidget(Admin);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        layoutWidget = new QWidget(centralwidget);
-        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(0, 0, 871, 114));
-        QFont font;
-        font.setPointSize(13);
-        font.setBold(true);
-        layoutWidget->setFont(font);
-        verticalLayout = new QVBoxLayout(layoutWidget);
+        verticalLayout_2 = new QVBoxLayout(centralwidget);
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
+        verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        verticalLayout->setContentsMargins(0, 0, 0, 0);
-        label = new QLabel(layoutWidget);
+        label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
+        QFont font;
+        font.setPointSize(19);
+        font.setBold(true);
         label->setFont(font);
+        label->setAutoFillBackground(false);
+        label->setFrameShadow(QFrame::Sunken);
+        label->setAlignment(Qt::AlignCenter);
 
         verticalLayout->addWidget(label);
 
-        label_2 = new QLabel(layoutWidget);
+        label_2 = new QLabel(centralwidget);
         label_2->setObjectName(QString::fromUtf8("label_2"));
         QFont font1;
         font1.setPointSize(10);
@@ -80,65 +81,90 @@ public:
 
         verticalLayout->addWidget(label_2);
 
-        comboBox = new QComboBox(layoutWidget);
+        comboBox = new QComboBox(centralwidget);
         comboBox->setObjectName(QString::fromUtf8("comboBox"));
-        comboBox->setFont(font);
+        QFont font2;
+        font2.setPointSize(16);
+        font2.setBold(true);
+        comboBox->setFont(font2);
+        comboBox->setStyleSheet(QString::fromUtf8("border: 2px solid black;"));
 
         verticalLayout->addWidget(comboBox);
 
-        layoutWidget1 = new QWidget(centralwidget);
-        layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
-        layoutWidget1->setGeometry(QRect(0, 125, 346, 557));
-        gridLayout = new QGridLayout(layoutWidget1);
-        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
-        gridLayout->setContentsMargins(0, 0, 0, 0);
-        label_6 = new QLabel(layoutWidget1);
+
+        verticalLayout_2->addLayout(verticalLayout);
+
+        horizontalLayout = new QHBoxLayout();
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        _2 = new QGridLayout();
+        _2->setObjectName(QString::fromUtf8("gridLayout"));
+        btn_EDI = new QPushButton(centralwidget);
+        btn_EDI->setObjectName(QString::fromUtf8("btn_EDI"));
+        QFont font3;
+        font3.setPointSize(15);
+        font3.setBold(true);
+        btn_EDI->setFont(font3);
+        btn_EDI->setStyleSheet(QString::fromUtf8("border: 4px solid black;"));
+        
+        _2->addWidget(btn_EDI, 2, 2, 1, 1);
+
+        label_6 = new QLabel(centralwidget);
         label_6->setObjectName(QString::fromUtf8("label_6"));
         label_6->setPixmap(QPixmap(QString::fromUtf8("C:/Users/Dell/OneDrive/Pictures/Screenshots/ide.png")));
+        
+        _2->addWidget(label_6, 2, 0, 1, 2);
 
-        gridLayout->addWidget(label_6, 2, 0, 1, 2);
+        btn_sysConfig = new QPushButton(centralwidget);
+        btn_sysConfig->setObjectName(QString::fromUtf8("btn_sysConfig"));
+        btn_sysConfig->setFont(font3);
+        btn_sysConfig->setStyleSheet(QString::fromUtf8("border: 4px solid black;"));
+        
+        _2->addWidget(btn_sysConfig, 3, 2, 1, 1);
 
-        label_3 = new QLabel(layoutWidget1);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
-        label_3->setPixmap(QPixmap(QString::fromUtf8("C:/Users/Dell/OneDrive/Pictures/Screenshots/Screenshot 2023-06-10 121132.png")));
+        btn_process = new QPushButton(centralwidget);
+        btn_process->setObjectName(QString::fromUtf8("btn_process"));
+        btn_process->setFont(font3);
+        btn_process->setStyleSheet(QString::fromUtf8("border: 4px solid black;"));
+        
+        _2->addWidget(btn_process, 4, 2, 1, 1);
 
-        gridLayout->addWidget(label_3, 0, 0, 2, 2);
-
-        label_10 = new QLabel(layoutWidget1);
+        label_10 = new QLabel(centralwidget);
         label_10->setObjectName(QString::fromUtf8("label_10"));
         label_10->setPixmap(QPixmap(QString::fromUtf8("C:/Users/Dell/OneDrive/Pictures/Screenshots/process.png")));
+        
+        _2->addWidget(label_10, 4, 0, 1, 2);
 
-        gridLayout->addWidget(label_10, 4, 0, 1, 2);
+        btn_reporting = new QPushButton(centralwidget);
+        btn_reporting->setObjectName(QString::fromUtf8("btn_reporting"));
+        btn_reporting->setFont(font3);
+        btn_reporting->setStyleSheet(QString::fromUtf8("border: 4px solid black;"));
+        
+        _2->addWidget(btn_reporting, 0, 2, 2, 1);
 
-        label_9 = new QLabel(layoutWidget1);
+        label_3 = new QLabel(centralwidget);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setPixmap(QPixmap(QString::fromUtf8("C:/Users/Dell/OneDrive/Pictures/Screenshots/Screenshot 2023-06-10 121132.png")));
+        
+        _2->addWidget(label_3, 0, 0, 2, 2);
+
+        label_9 = new QLabel(centralwidget);
         label_9->setObjectName(QString::fromUtf8("label_9"));
         label_9->setPixmap(QPixmap(QString::fromUtf8("C:/Users/Dell/OneDrive/Pictures/Screenshots/systemconfig.png")));
-
-        gridLayout->addWidget(label_9, 3, 0, 1, 2);
-
-        btn_reporting = new QPushButton(layoutWidget1);
-        btn_reporting->setObjectName(QString::fromUtf8("btn_reporting"));
-
-        gridLayout->addWidget(btn_reporting, 0, 2, 2, 1);
-
-        btn_EDI = new QPushButton(layoutWidget1);
-        btn_EDI->setObjectName(QString::fromUtf8("btn_EDI"));
-
-        gridLayout->addWidget(btn_EDI, 2, 2, 1, 1);
-
-        btn_sysConfig = new QPushButton(layoutWidget1);
-        btn_sysConfig->setObjectName(QString::fromUtf8("btn_sysConfig"));
-
-        gridLayout->addWidget(btn_sysConfig, 3, 2, 1, 1);
-
-        btn_process = new QPushButton(layoutWidget1);
-        btn_process->setObjectName(QString::fromUtf8("btn_process"));
-
-        gridLayout->addWidget(btn_process, 4, 2, 1, 1);
+        
+        _2->addWidget(label_9, 3, 0, 1, 2);
+        
+        
+        horizontalLayout->addLayout(_2);
 
         tabWidget = new QTabWidget(centralwidget);
         tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
-        tabWidget->setGeometry(QRect(350, 130, 521, 501));
+        tabWidget->setStyleSheet(QString::fromUtf8("border: 2px solid black;"));
+
+        horizontalLayout->addWidget(tabWidget);
+
+
+        verticalLayout_2->addLayout(horizontalLayout);
+
         Admin->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Admin);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -161,14 +187,14 @@ public:
         Admin->setWindowTitle(QCoreApplication::translate("Admin", "MainWindow", nullptr));
         label->setText(QCoreApplication::translate("Admin", "EliteBridge Utilities", nullptr));
         label_2->setText(QCoreApplication::translate("Admin", "Select a location from the List", nullptr));
-        label_6->setText(QString());
-        label_3->setText(QString());
-        label_10->setText(QString());
-        label_9->setText(QString());
-        btn_reporting->setText(QCoreApplication::translate("Admin", "Reporting", nullptr));
         btn_EDI->setText(QCoreApplication::translate("Admin", "EDI", nullptr));
+        label_6->setText(QString());
         btn_sysConfig->setText(QCoreApplication::translate("Admin", "system configuration", nullptr));
         btn_process->setText(QCoreApplication::translate("Admin", "Process", nullptr));
+        label_10->setText(QString());
+        btn_reporting->setText(QCoreApplication::translate("Admin", "Reporting", nullptr));
+        label_3->setText(QString());
+        label_9->setText(QString());
     } // retranslateUi
 
 };
