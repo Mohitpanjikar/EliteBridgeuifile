@@ -17,35 +17,6 @@
    <string notr="true">background-color:rgb(255, 255, 255)</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QFrame" name="dynamicFrame">
-    <property name="geometry">
-     <rect>
-      <x>350</x>
-      <y>130</y>
-      <width>521</width>
-      <height>501</height>
-     </rect>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-    <widget class="QLabel" name="label_5">
-     <property name="geometry">
-      <rect>
-       <x>50</x>
-       <y>60</y>
-       <width>63</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-   </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
@@ -106,20 +77,10 @@
       <x>0</x>
       <y>125</y>
       <width>346</width>
-      <height>521</height>
+      <height>557</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="0" rowspan="2" colspan="2">
-      <widget class="QLabel" name="label_3">
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap>C:/Users/Dell/OneDrive/Pictures/Screenshots/Screenshot 2023-06-10 121132.png</pixmap>
-       </property>
-      </widget>
-     </item>
      <item row="2" column="0" colspan="2">
       <widget class="QLabel" name="label_6">
        <property name="text">
@@ -130,45 +91,13 @@
        </property>
       </widget>
      </item>
-     <item row="2" column="2">
-      <widget class="QLabel" name="EDI">
-       <property name="font">
-        <font>
-         <pointsize>12</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="mouseTracking">
-        <bool>true</bool>
-       </property>
-       <property name="text">
-        <string>EDI</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0" colspan="2">
-      <widget class="QLabel" name="label_9">
+     <item row="0" column="0" rowspan="2" colspan="2">
+      <widget class="QLabel" name="label_3">
        <property name="text">
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>C:/Users/Dell/OneDrive/Pictures/Screenshots/systemconfig.png</pixmap>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="2">
-      <widget class="QLabel" name="systemconfig">
-       <property name="font">
-        <font>
-         <pointsize>12</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="mouseTracking">
-        <bool>true</bool>
-       </property>
-       <property name="text">
-        <string>System Configuration</string>
+        <pixmap>C:/Users/Dell/OneDrive/Pictures/Screenshots/Screenshot 2023-06-10 121132.png</pixmap>
        </property>
       </widget>
      </item>
@@ -182,39 +111,58 @@
        </property>
       </widget>
      </item>
-     <item row="4" column="2">
-      <widget class="QLabel" name="process">
-       <property name="font">
-        <font>
-         <pointsize>12</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="mouseTracking">
-        <bool>true</bool>
-       </property>
+     <item row="3" column="0" colspan="2">
+      <widget class="QLabel" name="label_9">
        <property name="text">
-        <string>Process</string>
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>C:/Users/Dell/OneDrive/Pictures/Screenshots/systemconfig.png</pixmap>
        </property>
       </widget>
      </item>
      <item row="0" column="2" rowspan="2">
-      <widget class="QLabel" name="reporting">
-       <property name="font">
-        <font>
-         <pointsize>12</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="mouseTracking">
-        <bool>true</bool>
-       </property>
+      <widget class="QPushButton" name="btn_reporting">
        <property name="text">
         <string>Reporting</string>
        </property>
       </widget>
      </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="btn_EDI">
+       <property name="text">
+        <string>EDI</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="btn_sysConfig">
+       <property name="text">
+        <string>system configuration</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="btn_process">
+       <property name="text">
+        <string>Process</string>
+       </property>
+      </widget>
+     </item>
     </layout>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>130</y>
+      <width>521</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

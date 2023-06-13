@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     }
 
 
-    MainWindow w;
+    Admin w;
 
     w.show();
     return a.exec();

@@ -283,6 +283,12 @@
 			null
 		],
 		[
+			"D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.h",
+			"MU",
+			"EWIEGA46WW/moc_registrationtab.cpp",
+			null
+		],
+		[
 			"D:/ElieteBridge-git/elitebridge_ui_file/userwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_userwindow.cpp",
@@ -354,6 +360,11 @@
 		[ "D:/ElieteBridge-git/elitebridge_ui_file/admin.cpp", "MU", null ],
 		[ "D:/ElieteBridge-git/elitebridge_ui_file/main.cpp", "MU", null ],
 		[ "D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.cpp", "MU", null ],
+		[
+			"D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.cpp",
+			"MU",
+			null
+		],
 		[ "D:/ElieteBridge-git/elitebridge_ui_file/userwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
