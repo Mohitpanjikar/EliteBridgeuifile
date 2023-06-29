@@ -25,9 +25,18 @@ set(PROJECT_SOURCES
         userwindow.h
         userwindow.cpp
         userwindow.ui
-        registrationtab.h
-        registrationtab.cpp
-        registrationtab.ui
+        reporting.cpp
+        reporting.h
+        reporting.ui
+        edi.cpp
+        edi.h
+        edi.ui
+        sysconfig.cpp
+        sysconfig.h
+        sysconfig.ui
+        process.cpp
+        process.h
+        process.ui
         ${TS_FILES}
 )
 

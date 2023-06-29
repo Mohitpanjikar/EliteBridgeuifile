@@ -89,9 +89,33 @@ build CMakeFiles/elitebridge_ui_file.dir/userwindow.cpp.obj: CXX_COMPILER__elite
   OBJECT_DIR = CMakeFiles\elitebridge_ui_file.dir
   OBJECT_FILE_DIR = CMakeFiles\elitebridge_ui_file.dir
 
-build CMakeFiles/elitebridge_ui_file.dir/registrationtab.cpp.obj: CXX_COMPILER__elitebridge_ui_file_Debug D$:/ElieteBridge-git/elitebridge_ui_file/registrationtab.cpp || cmake_object_order_depends_target_elitebridge_ui_file
+build CMakeFiles/elitebridge_ui_file.dir/reporting.cpp.obj: CXX_COMPILER__elitebridge_ui_file_Debug D$:/ElieteBridge-git/elitebridge_ui_file/reporting.cpp || cmake_object_order_depends_target_elitebridge_ui_file
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\elitebridge_ui_file.dir\registrationtab.cpp.obj.d
+  DEP_FILE = CMakeFiles\elitebridge_ui_file.dir\reporting.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
+  INCLUDES = -ID:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/elitebridge_ui_file_autogen/include -isystem C:/Qt/6.2.4/mingw_64/include/QtCore -isystem C:/Qt/6.2.4/mingw_64/include -isystem C:/Qt/6.2.4/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.2.4/mingw_64/include/QtWidgets -isystem C:/Qt/6.2.4/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\elitebridge_ui_file.dir
+  OBJECT_FILE_DIR = CMakeFiles\elitebridge_ui_file.dir
+
+build CMakeFiles/elitebridge_ui_file.dir/edi.cpp.obj: CXX_COMPILER__elitebridge_ui_file_Debug D$:/ElieteBridge-git/elitebridge_ui_file/edi.cpp || cmake_object_order_depends_target_elitebridge_ui_file
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\elitebridge_ui_file.dir\edi.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
+  INCLUDES = -ID:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/elitebridge_ui_file_autogen/include -isystem C:/Qt/6.2.4/mingw_64/include/QtCore -isystem C:/Qt/6.2.4/mingw_64/include -isystem C:/Qt/6.2.4/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.2.4/mingw_64/include/QtWidgets -isystem C:/Qt/6.2.4/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\elitebridge_ui_file.dir
+  OBJECT_FILE_DIR = CMakeFiles\elitebridge_ui_file.dir
+
+build CMakeFiles/elitebridge_ui_file.dir/sysconfig.cpp.obj: CXX_COMPILER__elitebridge_ui_file_Debug D$:/ElieteBridge-git/elitebridge_ui_file/sysconfig.cpp || cmake_object_order_depends_target_elitebridge_ui_file
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\elitebridge_ui_file.dir\sysconfig.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
+  INCLUDES = -ID:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/elitebridge_ui_file_autogen/include -isystem C:/Qt/6.2.4/mingw_64/include/QtCore -isystem C:/Qt/6.2.4/mingw_64/include -isystem C:/Qt/6.2.4/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.2.4/mingw_64/include/QtWidgets -isystem C:/Qt/6.2.4/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\elitebridge_ui_file.dir
+  OBJECT_FILE_DIR = CMakeFiles\elitebridge_ui_file.dir
+
+build CMakeFiles/elitebridge_ui_file.dir/process.cpp.obj: CXX_COMPILER__elitebridge_ui_file_Debug D$:/ElieteBridge-git/elitebridge_ui_file/process.cpp || cmake_object_order_depends_target_elitebridge_ui_file
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\elitebridge_ui_file.dir\process.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
   INCLUDES = -ID:/ElieteBridge-git/build-elitebridge_ui_file-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/elitebridge_ui_file_autogen/include -isystem C:/Qt/6.2.4/mingw_64/include/QtCore -isystem C:/Qt/6.2.4/mingw_64/include -isystem C:/Qt/6.2.4/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.2.4/mingw_64/include/QtWidgets -isystem C:/Qt/6.2.4/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\elitebridge_ui_file.dir
@@ -105,7 +129,7 @@ build CMakeFiles/elitebridge_ui_file.dir/registrationtab.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable elitebridge_ui_file.exe
 
-build elitebridge_ui_file.exe: CXX_EXECUTABLE_LINKER__elitebridge_ui_file_Debug CMakeFiles/elitebridge_ui_file.dir/elitebridge_ui_file_autogen/mocs_compilation.cpp.obj CMakeFiles/elitebridge_ui_file.dir/main.cpp.obj CMakeFiles/elitebridge_ui_file.dir/mainwindow.cpp.obj CMakeFiles/elitebridge_ui_file.dir/admin.cpp.obj CMakeFiles/elitebridge_ui_file.dir/userwindow.cpp.obj CMakeFiles/elitebridge_ui_file.dir/registrationtab.cpp.obj | C$:/Qt/6.2.4/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.2.4/mingw_64/lib/libQt6Gui.a C$:/Qt/6.2.4/mingw_64/lib/libQt6Core.a C$:/Qt/6.2.4/mingw_64/lib/libQt6EntryPoint.a || elitebridge_ui_file_autogen elitebridge_ui_file_autogen_timestamp_deps
+build elitebridge_ui_file.exe: CXX_EXECUTABLE_LINKER__elitebridge_ui_file_Debug CMakeFiles/elitebridge_ui_file.dir/elitebridge_ui_file_autogen/mocs_compilation.cpp.obj CMakeFiles/elitebridge_ui_file.dir/main.cpp.obj CMakeFiles/elitebridge_ui_file.dir/mainwindow.cpp.obj CMakeFiles/elitebridge_ui_file.dir/admin.cpp.obj CMakeFiles/elitebridge_ui_file.dir/userwindow.cpp.obj CMakeFiles/elitebridge_ui_file.dir/reporting.cpp.obj CMakeFiles/elitebridge_ui_file.dir/edi.cpp.obj CMakeFiles/elitebridge_ui_file.dir/sysconfig.cpp.obj CMakeFiles/elitebridge_ui_file.dir/process.cpp.obj | C$:/Qt/6.2.4/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.2.4/mingw_64/lib/libQt6Gui.a C$:/Qt/6.2.4/mingw_64/lib/libQt6Core.a C$:/Qt/6.2.4/mingw_64/lib/libQt6EntryPoint.a || elitebridge_ui_file_autogen elitebridge_ui_file_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.2.4/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.2.4/mingw_64/lib/libQt6Gui.a  C:/Qt/6.2.4/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.2.4/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -192,7 +216,7 @@ build elitebridge_ui_file_autogen_timestamp_deps: phony CMakeFiles/elitebridge_u
 #############################################
 # Utility command for elitebridge_ui_file_autogen
 
-build elitebridge_ui_file_autogen: phony CMakeFiles/elitebridge_ui_file_autogen elitebridge_ui_file_autogen/include/ui_mainwindow.h elitebridge_ui_file_autogen/include/ui_admin.h elitebridge_ui_file_autogen/include/ui_userwindow.h elitebridge_ui_file_autogen/include/ui_registrationtab.h elitebridge_ui_file_autogen/timestamp elitebridge_ui_file_autogen/mocs_compilation.cpp elitebridge_ui_file_autogen_timestamp_deps
+build elitebridge_ui_file_autogen: phony CMakeFiles/elitebridge_ui_file_autogen elitebridge_ui_file_autogen/include/ui_mainwindow.h elitebridge_ui_file_autogen/include/ui_admin.h elitebridge_ui_file_autogen/include/ui_userwindow.h elitebridge_ui_file_autogen/include/ui_reporting.h elitebridge_ui_file_autogen/include/ui_edi.h elitebridge_ui_file_autogen/include/ui_sysconfig.h elitebridge_ui_file_autogen/include/ui_process.h elitebridge_ui_file_autogen/timestamp elitebridge_ui_file_autogen/mocs_compilation.cpp elitebridge_ui_file_autogen_timestamp_deps
 
 
 #############################################
@@ -208,13 +232,13 @@ build elitebridge_ui_file_autogen/timestamp elitebridge_ui_file_autogen/mocs_com
 #############################################
 # Phony custom command for CMakeFiles\elitebridge_ui_file_autogen_timestamp_deps
 
-build CMakeFiles/elitebridge_ui_file_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/elitebridge_ui_file_autogen_timestamp_deps: phony C$:/Qt/6.2.4/mingw_64/./bin/moc.exe C$:/Qt/6.2.4/mingw_64/./bin/uic.exe C$:/Qt/6.2.4/mingw_64/lib/libQt6Core.a C$:/Qt/6.2.4/mingw_64/lib/libQt6Widgets.a
+build CMakeFiles/elitebridge_ui_file_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/elitebridge_ui_file_autogen_timestamp_deps: phony C$:/Qt/6.2.4/mingw_64/./bin/uic.exe C$:/Qt/6.2.4/mingw_64/lib/libQt6Core.a C$:/Qt/6.2.4/mingw_64/./bin/moc.exe C$:/Qt/6.2.4/mingw_64/lib/libQt6Widgets.a
 
 
 #############################################
 # Phony custom command for CMakeFiles\elitebridge_ui_file_autogen
 
-build CMakeFiles/elitebridge_ui_file_autogen elitebridge_ui_file_autogen/include/ui_mainwindow.h elitebridge_ui_file_autogen/include/ui_admin.h elitebridge_ui_file_autogen/include/ui_userwindow.h elitebridge_ui_file_autogen/include/ui_registrationtab.h | ${cmake_ninja_workdir}CMakeFiles/elitebridge_ui_file_autogen ${cmake_ninja_workdir}elitebridge_ui_file_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}elitebridge_ui_file_autogen/include/ui_admin.h ${cmake_ninja_workdir}elitebridge_ui_file_autogen/include/ui_userwindow.h ${cmake_ninja_workdir}elitebridge_ui_file_autogen/include/ui_registrationtab.h: phony elitebridge_ui_file_autogen/timestamp || elitebridge_ui_file_autogen_timestamp_deps
+build CMakeFiles/elitebridge_ui_file_autogen elitebridge_ui_file_autogen/include/ui_mainwindow.h elitebridge_ui_file_autogen/include/ui_admin.h elitebridge_ui_file_autogen/include/ui_userwindow.h elitebridge_ui_file_autogen/include/ui_reporting.h elitebridge_ui_file_autogen/include/ui_edi.h elitebridge_ui_file_autogen/include/ui_sysconfig.h elitebridge_ui_file_autogen/include/ui_process.h | ${cmake_ninja_workdir}CMakeFiles/elitebridge_ui_file_autogen ${cmake_ninja_workdir}elitebridge_ui_file_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}elitebridge_ui_file_autogen/include/ui_admin.h ${cmake_ninja_workdir}elitebridge_ui_file_autogen/include/ui_userwindow.h ${cmake_ninja_workdir}elitebridge_ui_file_autogen/include/ui_reporting.h ${cmake_ninja_workdir}elitebridge_ui_file_autogen/include/ui_edi.h ${cmake_ninja_workdir}elitebridge_ui_file_autogen/include/ui_sysconfig.h ${cmake_ninja_workdir}elitebridge_ui_file_autogen/include/ui_process.h: phony elitebridge_ui_file_autogen/timestamp || elitebridge_ui_file_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

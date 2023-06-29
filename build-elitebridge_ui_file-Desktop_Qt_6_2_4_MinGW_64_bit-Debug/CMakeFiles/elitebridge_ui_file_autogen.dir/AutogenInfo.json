@@ -277,15 +277,33 @@
 			null
 		],
 		[
+			"D:/ElieteBridge-git/elitebridge_ui_file/edi.h",
+			"MU",
+			"EWIEGA46WW/moc_edi.cpp",
+			null
+		],
+		[
 			"D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.h",
+			"D:/ElieteBridge-git/elitebridge_ui_file/process.h",
 			"MU",
-			"EWIEGA46WW/moc_registrationtab.cpp",
+			"EWIEGA46WW/moc_process.cpp",
+			null
+		],
+		[
+			"D:/ElieteBridge-git/elitebridge_ui_file/reporting.h",
+			"MU",
+			"EWIEGA46WW/moc_reporting.cpp",
+			null
+		],
+		[
+			"D:/ElieteBridge-git/elitebridge_ui_file/sysconfig.h",
+			"MU",
+			"EWIEGA46WW/moc_sysconfig.cpp",
 			null
 		],
 		[
@@ -358,13 +376,12 @@
 	"SOURCES" : 
 	[
 		[ "D:/ElieteBridge-git/elitebridge_ui_file/admin.cpp", "MU", null ],
+		[ "D:/ElieteBridge-git/elitebridge_ui_file/edi.cpp", "MU", null ],
 		[ "D:/ElieteBridge-git/elitebridge_ui_file/main.cpp", "MU", null ],
 		[ "D:/ElieteBridge-git/elitebridge_ui_file/mainwindow.cpp", "MU", null ],
-		[
-			"D:/ElieteBridge-git/elitebridge_ui_file/registrationtab.cpp",
-			"MU",
-			null
-		],
+		[ "D:/ElieteBridge-git/elitebridge_ui_file/process.cpp", "MU", null ],
+		[ "D:/ElieteBridge-git/elitebridge_ui_file/reporting.cpp", "MU", null ],
+		[ "D:/ElieteBridge-git/elitebridge_ui_file/sysconfig.cpp", "MU", null ],
 		[ "D:/ElieteBridge-git/elitebridge_ui_file/userwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
